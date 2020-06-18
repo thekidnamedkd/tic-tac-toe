@@ -1,37 +1,63 @@
-# _{Application Name}_
+# _{Tic-Tac-Toe}_
 
-#### _{Brief description of application}, {Date of current version}_
+#### _Tic Tac Toe Application for Epicodus, 6/18/2020_
 
-#### By _**{List of contributors}**_
+#### By _**Kevin Davis and Vanessa Guerrero**_
 
 ## Description
 
-_{This is a detailed description of your application. Its purpose and usage.  Give as much detail as needed to explain what the application does, and any other information you want users or other developers to have. }_
+This is an application where users can play Tic-Tac-Toe.
+
+## Specifications
+
+**Behavior**: Program will display a grid that is 3 squares by 3 squares
+* Input: None
+* Output: Grid
+
+**Behavior**: Program will recognize grid space clicked from array of 9 spaces
+* Input: *Click top right grid*
+* Output: Top right grid selected
+
+**Behavior**: Program will output an X for Player 1 and and O for Player 2
+* Input: *Player 1 clicks bottom left grid*
+* Output: X on bottom left grid
+
+**Behavior**: Program will output X or O in grid space clicked
+* Input: *Click top right grid*
+* Output: X, or O on top right grid
+
+**Behavior**: Program will recognize when three adjacent grid spaces contain same character and declare winner
+* Input: O O O 
+* Output: You win!
+
+**Behavior**: Program will recognize when all 9 grid spaces are filled without 3 being adjacent and declare cat's game
+* Input: *9 inputs*
+* Output: Cat's game! 
 
 ## Setup/Installation Requirements
 
-* _This is a great place_
-* _to list setup instructions_
-* _in a simple_
-* _easy-to-understand_
-* _format_
-
-_{Leave nothing to chance! You want it to be easy for potential users, employers and collaborators to run your app. Do I need to run a server? How should I set up my databases? Is there other code this app depends on?}_
+* Find the repository of this application [here](https://github.com/thekidnamedkd/tic-tac-toe) and click the green "Clone or Download Folder" to download a zip file with all its contents.
+* Once the file is downloaded, open with Visual Studio Code or the text editor of your choice to view the code.
+* To view and intereact with the webpage using Visual Studio Code, click on Terminal > New Terminal. Once a terminal opens, type "open index.html" and hit enter. This will open the page onto a browser window.
 
 ## Known Bugs
 
-_{Are there issues that have not yet been resolved that you want to let users know you know?  Outline any issues that would impact use of your application.  Share any workarounds that are in place. }_
+There are no known bugs.
 
 ## Support and contact details
 
-_{Let people know what to do if they run into any issues or have questions, ideas or concerns.  Encourage them to contact you or make a contribution to the code.}_
+For feedback or concerns about this project, please contact one of the conbributors.
 
 ## Technologies Used
 
-_{Tell me about the languages and tools you used to create this app. Assume that I know you probably used HTML and CSS. If you did something really cool using only HTML, point that out.}_
+* HTML
+* CSS
+* JQuery
+* JavaScript
+* Bootstrap
 
 ### License
 
-*{Determine the license under which this application can be used.  See below for more details on licensing.}*
+MIT License.
 
-Copyright (c) 2016 **_{List of contributors or company name}_**
+Copyright (c) 2020 **_Kevin Davis, Vanessa Guerrero_**
